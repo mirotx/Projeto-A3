@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0; /*zerar ou resetar o estilo padrão do navegador*/
+    padding: 0; /*zerar ou resetar o estilo padrão do navegador*/
+    font-family: 'NIGHTMARE', sans-serif; /*fonte usada, caso não ache user a sans serif*/
+}
+
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/design-de-modelo-de-papel-de-parede-medico-abstrato_53876-61803.jpg?w=1060&t=st=1668638283~exp=1668638883~hmac=74a6190818faf0a70d8cdc5313a1a37ad6ba6bb552d09bffa65f65bd2e1da654);
+    background-repeat: no-repeat; /*ajuda de responsividade: não irá repetir a imagem*/
+    background-size: cover; /*ajuda de responsividade: para cobrir todo o espaço*/
+    background-attachment: fixed; /*ajuda de responsividade: cobre toda a nossa tela*/
+}
+
+
+.container{
+    display: flex; /**/
+    justify-content: center; /*centraliza todos os conteudos desse card*/
+    width: 100%; /*garatir que ira cobrir 100% da area que ocupar */
+    margin-top: 100px; /*fixar no top*/
+}
+
+.card{
+    background-color: #ffffff80; /*3f diz a cor branca. Mais 3f e algum número no final, diz para definir opacidade*/
+    padding: 30px; /*distancia entre o conteudo de um elemento e suas bordas*/
+    border-radius: 4%; /*arrendodamento de pontas*/
+    box-shadow: 3px 3px 1px 0px #00000070; /*sombra: direita, baixo, esquerda, cima. opacidade usando cor hexa (6 digitos e um número de opacidade)*/
+    width: 400px;
+}
+
+h1{
+    text-align: center; /*centralizar o texto*/
+    margin-bottom: 20px; /*margin para baixo*/
+    color: #272262; /*cor do texto*/
+}
+
+.label-float input{
+    width: 100%; /*largura para pegar 100% da nossa tela*/
+    padding: 5px 5px; /*cima e baixo para ficar mais largo*/
+    display: inline-block; /*para fixar nessa linha*/
+    border: 0; /*tirar as bordas*/
+    border-bottom: 1px solid #272262; /*deixar borda abaixo*/
+    background-color: transparent; /*tirar a cor de fundo*/
+    outline: none; /*retira aquelas bordas de quando selecionamos para escrever no input*/
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #4038a0;
+}
+
+.label-float label{
+    color: #272262;
+    pointer-events: none; /*colocar o mouse em cima da label*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label, .label-float input:valid + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #4038a0
+}
+
+button{
+    background-color: transparent;
+    border-color: #272262;
+    color: #272262;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: #272262;
+    color: #fff;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #272262;
+}
+
+
+
+
+
+
+
+
+
+
+
+
