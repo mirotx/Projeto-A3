@@ -75,7 +75,7 @@ h1{
     color: #4038a0
 }
 
-button{
+.button{
     background-color: transparent;
     border-color: #272262;
     color: #272262;
@@ -89,7 +89,7 @@ button{
     transition: all .4s ease-out;
 }
 
-button:hover{
+.button:hover{
     background-color: #272262;
     color: #fff;
 }
@@ -129,20 +129,3 @@ a:hover{
     cursor: pointer;
     color: #272262;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
