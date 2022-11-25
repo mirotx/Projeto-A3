@@ -23,7 +23,7 @@ body {
 	text-align: left;
 }
 .tilesWrap li h2 {
-	font-size: 114px;
+	font-size: 40px;
 	margin: 0;
 	position: absolute;
 	opacity: 0.2;
@@ -39,7 +39,7 @@ body {
 .tilesWrap li p {
 	font-size: 16px;
 	line-height: 18px;
-	color: #b7b7b7;
+	color: #000000;
 	margin-top: 5px;
 }
 .tilesWrap li button:before {
