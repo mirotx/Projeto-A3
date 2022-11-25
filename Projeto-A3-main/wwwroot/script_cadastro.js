@@ -23,3 +23,7 @@ btnConfirm.addEventListener('click', ()=>{
         inputConfirmSenha.setAttribute('type', 'password')
     }
 })
+
+function funcao(){
+    alert("Cadastro feito")
+}
