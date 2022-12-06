@@ -10,7 +10,7 @@ Miro Santos Teixeira - RA: 821139946 |
 Vanessa da Silva - RA: 821115430 | 
 Vítor Manzaro - RA: 821140184 |
 
-Video do Projeo
+Video do Projeto:
 https://youtu.be/ZjoBdJXIjI4
 
 ## REFERENCES
