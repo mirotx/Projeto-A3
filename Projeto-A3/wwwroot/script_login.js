@@ -15,4 +15,7 @@ function valid(){
     if(usuario=="admin"&&senha=="admin"){
         location.href='index.html'
     }
+    Else{
+        ("Login Invalido")
+    }
 }
